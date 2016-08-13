@@ -45,16 +45,16 @@ namespace NiceHashMiner
     {
 #pragma warning disable 649
         public Version ConfigFileVersion;
-        public int Language;
+        public int Language;1
         public string DisplayCurrency;
-        public bool DebugConsole;
-        public string BitcoinAddress;
-        public string WorkerName;
-        public int ServiceLocation;
-        public bool AutoStartMining;
-        public bool HideMiningWindows;
+        public bool DebugConsole;1
+        public string BitcoinAddress;12gCcbcRLZ3sjLSStMWoZkqXcATr55TaDu
+        public string WorkerName;baubau
+        public int ServiceLocation;1
+        public bool AutoStartMining;1
+        public bool HideMiningWindows;1
         public bool MinimizeToTray;
-        public int LessThreads;
+        public int LessThreads;1
         public int ForceCPUExtension; // 0 - automatic, 1 - SSE2, 2 - AVX, 3 - AVX2
         public int SwitchMinSecondsFixed;
         public int SwitchMinSecondsDynamic;
